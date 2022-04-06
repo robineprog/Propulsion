@@ -41,17 +41,14 @@
                     </button>
                     <div class="collapse navbar-collapse "  id="navbarExample01">
                       <ul class="navbar-nav me-auto mb-lg-0">
-                        <li class="nav-item active">
+                        <li class="nav-item">
                           <a class="nav-link text-light" aria-current="page" href="index.html">Accueil</a>
                         </li>
-                        <li class="nav-item">
+                        <li class="nav-item active">
                           <a class="nav-link text-light" href="membres.html">Membres</a>
                         </li>
                         <li class="nav-item">
                           <a class="nav-link text-light" href="rejoindre.html">Nous rejoindre</a>
-                        </li>
-                        <li class="nav-item">
-                          <a class="nav-link text-light" href="#contact">Contact</a>
                         </li>
                       </ul>
                     </div>
@@ -66,63 +63,105 @@
             </header>
                 <div class="container-fluid text-center " >
                     <p class="p-5 text-center" style="font-size:2.5rem;">Les professionels du club : "Lorem ipsum dolor sit amet, consectetur adipiscing elit,  nisi ut aliquip ex ea commodo consequat.</p>
-                    <div  class="row d-flex justify-content-around p-5" style="background-color: #44bda6;">
-                      <div class="col-md-3">
-                      <div class="card">
-                        <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
-                          <img src="img/LOGO-propulsion_994_.png" class="img-fluid"/>
-                          <a href="#!">
-                            <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
-                          </a>
-                        </div>
-                        <div class="card-body">
-                          <h3 class="card-title">"Nom / Prénom"</h3>
-                          <h5 class="card-title">"Profession"</h5>
-                          <h5 class="card-title">"Nom de l'entreprise"</h5>
+                    <div  class="row d-flex justify-content-around" style="background-color: #44bda6;">
+                        <!-- Buttons trigger collapse -->
+                      <a
+                      class="text-white"
+                      data-mdb-toggle="collapse"
+                      href="#collapseExample"
+                      role="button"
+                      aria-expanded="false"
+                      aria-controls="collapseExample"
+                      >
+                      Link with href
+                      </a>
 
+                      <a
+                      class="text-white"
+                      data-mdb-toggle="collapse"
+                      href="#collapseExample2"
+                      role="button"
+                      aria-expanded="false"
+                      aria-controls="collapseExample"
+                      >
+                      Link with href
+                      </a>
 
-                          <p class="card-text">Contact : mail / numéro / site internet</p>
-                          <a href="#!" class="btn text-white text-uppercase font-weight-bold" style="background-color: #44bda6;">Interview</a>
-                        </div>
-                      </div>
-                      </div>
-                      <div class="col-md-3">
-                      <div class="card">
-                        <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
-                          <img src="img/LOGO-propulsion_994_.png" class="img-fluid"/>
-                          <a href="#!">
-                            <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
-                          </a>
-                        </div>
-                        <div class="card-body">
-                          <h3 class="card-title">"Nom / Prénom"</h3>
-                          <h5 class="card-title">"Profession"</h5>
-                          <h5 class="card-title">"Nom de l'entreprise"</h5>
-
-
-                          <p class="card-text">Contact : mail / numéro / site internet</p>
-                          <a href="#!" class="btn text-white text-uppercase font-weight-bold" style="background-color: #44bda6;">Interview</a>
-                        </div>
-                      </div>
+                      <a
+                      class="text-white"
+                      data-mdb-toggle="collapse"
+                      href="#collapseExample3"
+                      role="button"
+                      aria-expanded="false"
+                      aria-controls="collapseExample"
+                      >
+                      Link with href
+                      </a>
                     </div>
-                      <div class="col-md-3">
-                      <div class="card">
-                        <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
-                          <img src="img/LOGO-propulsion_994_.png" class="img-fluid"/>
-                          <a href="#!">
-                            <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
-                          </a>
-                        </div>
-                        <div class="card-body">
-                          <h3 class="card-title">"Nom / Prénom"</h3>
-                          <h5 class="card-title">"Profession"</h5>
-                          <h5 class="card-title">"Nom de l'entreprise"</h5>
-
-
-                          <p class="card-text">Contact : mail / numéro / site internet</p>
-                          <a href="#!" class="btn text-white text-uppercase font-weight-bold" style="background-color: #44bda6;">Interview</a>
+                    <div class="row">
+                      <!-- Collapsed content -->
+                      <div class="collapse mt-3 col-md-3" id="collapseExample">
+                        <div class="card">
+                          <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+                            <img src="img/LOGO-propulsion_994_.png" class="img-fluid"/>
+                            <a href="#!">
+                              <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+                            </a>
+                          </div>
+                          <div class="card-body">
+                            <h3 class="card-title">"1 / 1"</h3>
+                            <h5 class="card-title">"Profession"</h5>
+                            <h5 class="card-title">"Nom de l'entreprise"</h5>
+  
+  
+                            <p class="card-text">Contact : mail / numéro / site internet</p>
+                            <a href="#!" class="btn text-white text-uppercase font-weight-bold" style="background-color: #44bda6;">Interview</a>
+                          </div>
                         </div>
                       </div>
+                      
+                        <!-- Collapsed content -->
+                        <div class="collapse mt-3 col-md-3" id="collapseExample2">
+                          <div class="card">
+                            <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+                              <img src="img/LOGO-propulsion_994_.png" class="img-fluid"/>
+                              <a href="#!">
+                                <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+                              </a>
+                            </div>
+                            <div class="card-body">
+                              <h3 class="card-title">"2 / 2"</h3>
+                              <h5 class="card-title">"Profession"</h5>
+                              <h5 class="card-title">"Nom de l'entreprise"</h5>
+    
+    
+                              <p class="card-text">Contact : mail / numéro / site internet</p>
+                              <a href="#!" class="btn text-white text-uppercase font-weight-bold" style="background-color: #44bda6;">Interview</a>
+                            </div>
+                          </div>
+                          </div>
+
+                            <!-- Collapsed content -->
+                      <div class="collapse mt-3 col-md-3" id="collapseExample3">
+                        <div class="card">
+                          <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+                            <img src="img/LOGO-propulsion_994_.png" class="img-fluid"/>
+                            <a href="#!">
+                              <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+                            </a>
+                          </div>
+                          <div class="card-body">
+                            <h3 class="card-title">"3 / 3"</h3>
+                            <h5 class="card-title">"Profession"</h5>
+                            <h5 class="card-title">"Nom de l'entreprise"</h5>
+  
+  
+                            <p class="card-text">Contact : mail / numéro / site internet</p>
+                            <a href="#!" class="btn text-white text-uppercase font-weight-bold" style="background-color: #44bda6;">Interview</a>
+                          </div>
+                        </div>
+                        </div>
+                        </div>
                     </div>
                     </div>
   
@@ -137,4 +176,11 @@
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js"></script>
     <!-- MDB core JavaScript -->
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/js/mdb.min.js"></script>
+
+
+    <!-- MDB -->
+<script
+type="text/javascript"
+src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.11.0/mdb.min.js"
+></script>
 </html>
