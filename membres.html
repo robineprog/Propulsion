@@ -1,187 +1,349 @@
 <html lang="fr">
-	<head>
-		<meta charset="UTF-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-		<title>Nos Membres</title>
-    <!--font -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Arimo&display=swap" rel="stylesheet">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" rel="stylesheet">
-        <!-- LE CSS MAGGLE -->
-        <link rel="stylesheet" href="style.css">
-        <!-- Font Awesome -->
-        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
-        <!-- Google Fonts -->
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
-        <!-- Bootstrap core CSS -->
-        <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet">
-        <!-- Material Design Bootstrap -->
-        <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/css/mdb.min.css" rel="stylesheet">
-    </head>
-    <body>
 
-        <style>
-            * {font-family: 'Arimo', sans-serif;}
-          </style>
-            <header>
-                <!-- Navbar -->
-                <nav class="navbar navbar-expand-lg navbar-light " style="background-color: #44bda6;">
-                  <div class="container-fluid">
-                    <button
-                      class="navbar-toggler"
-                      type="button"
-                      data-mdb-toggle="collapse"
-                      data-mdb-target="#navbarExample01"
-                      aria-controls="navbarExample01"
-                      aria-expanded="false"
-                      aria-label="Toggle navigation"
-                    >
-                      <i class="fas fa-bars"></i>
-                    </button>
-                    <div class="collapse navbar-collapse "  id="navbarExample01">
-                      <ul class="navbar-nav me-auto mb-lg-0">
-                        <li class="nav-item">
-                          <a class="nav-link text-light" aria-current="page" href="index.html">Accueil</a>
-                        </li>
-                        <li class="nav-item active">
-                          <a class="nav-link text-light" href="membres.html">Membres</a>
-                        </li>
-                        <li class="nav-item">
-                          <a class="nav-link text-light" href="rejoindre.html">Nous rejoindre</a>
-                        </li>
-                      </ul>
-                    </div>
-                  </div>
-                </nav>
-                <!-- Navbar -->
-            
-                <!-- Jumbotron -->
-                <div class=" text-center pb-2 pl-4" style="height:60%; background: linear-gradient(to bottom, rgba(253, 253, 253, 0.52), rgba(255, 255, 255, 0.73)),center 40% no-repeat url('img/pexels-fauxels-3184465.jpg') ;background-size: 100%;" >
-                  <h1 class="text-uppercase font-weight-bold" style="padding-top: 12%;">Nos Membres</h1>
-                </div>
-            </header>
-                <div class="container-fluid text-center " >
-                    <p class="p-5 text-center" style="font-size:2.5rem;">Les professionels du club : "Lorem ipsum dolor sit amet, consectetur adipiscing elit,  nisi ut aliquip ex ea commodo consequat.</p>
-                    <div  class="row d-flex justify-content-around" style="background-color: #44bda6;">
-                        <!-- Buttons trigger collapse -->
-                      <a
-                      class="text-white"
-                      data-mdb-toggle="collapse"
-                      href="#collapseExample"
-                      role="button"
-                      aria-expanded="false"
-                      aria-controls="collapseExample"
-                      >
-                      Link with href
-                      </a>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Nos Membres</title>
+  <!--font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Arimo&display=swap" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" rel="stylesheet">
+  <!-- LE CSS MAGGLE -->
+  <link rel="stylesheet" href="style.css">
+  <!-- Font Awesome -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet" />
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet" />
+  <!-- MDB -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/4.2.0/mdb.min.css" rel="stylesheet" />
+</head>
 
-                      <a
-                      class="text-white"
-                      data-mdb-toggle="collapse"
-                      href="#collapseExample2"
-                      role="button"
-                      aria-expanded="false"
-                      aria-controls="collapseExample"
-                      >
-                      Link with href
-                      </a>
+<body>
+  <style>
+    * {
+      font-family: 'Arimo', sans-serif;
+    }
+  </style>
+  <header>
+ <!-- Navbar -->
+ <nav class="navbar navbar-expand-lg navbar-light " style="background-color: #44bda6;">
+  <div class="container-fluid">
+    <button class="navbar-toggler" type="button" data-mdb-toggle="collapse" data-mdb-target="#navbarExample01"
+      aria-controls="navbarExample01" aria-expanded="false" aria-label="Toggle navigation">
+      <i class="fas fa-bars"></i>
+    </button>
+    <div class="collapse navbar-collapse " id="navbarExample01">
+      <ul class="navbar-nav me-auto mb-lg-0">
+        <li class="nav-item active">
+          <a class="nav-link text-white" aria-current="page" href="index.html">Accueil</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white" href="membres.html">Membres</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white" href="rejoindre.html">Nous rejoindre</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<!-- Navbar -->
 
-                      <a
-                      class="text-white"
-                      data-mdb-toggle="collapse"
-                      href="#collapseExample3"
-                      role="button"
-                      aria-expanded="false"
-                      aria-controls="collapseExample"
-                      >
-                      Link with href
-                      </a>
-                    </div>
-                    <div class="row">
-                      <!-- Collapsed content -->
-                      <div class="collapse mt-3 col-md-3" id="collapseExample">
-                        <div class="card">
-                          <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
-                            <img src="img/LOGO-propulsion_994_.png" class="img-fluid"/>
-                            <a href="#!">
-                              <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
-                            </a>
-                          </div>
-                          <div class="card-body">
-                            <h3 class="card-title">"1 / 1"</h3>
-                            <h5 class="card-title">"Profession"</h5>
-                            <h5 class="card-title">"Nom de l'entreprise"</h5>
-  
-  
-                            <p class="card-text">Contact : mail / numéro / site internet</p>
-                            <a href="#!" class="btn text-white text-uppercase font-weight-bold" style="background-color: #44bda6;">Interview</a>
-                          </div>
-                        </div>
-                      </div>
-                      
-                        <!-- Collapsed content -->
-                        <div class="collapse mt-3 col-md-3" id="collapseExample2">
-                          <div class="card">
-                            <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
-                              <img src="img/LOGO-propulsion_994_.png" class="img-fluid"/>
-                              <a href="#!">
-                                <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
-                              </a>
-                            </div>
-                            <div class="card-body">
-                              <h3 class="card-title">"2 / 2"</h3>
-                              <h5 class="card-title">"Profession"</h5>
-                              <h5 class="card-title">"Nom de l'entreprise"</h5>
-    
-    
-                              <p class="card-text">Contact : mail / numéro / site internet</p>
-                              <a href="#!" class="btn text-white text-uppercase font-weight-bold" style="background-color: #44bda6;">Interview</a>
-                            </div>
-                          </div>
-                          </div>
+    <!-- Jumbotron -->
+    <div class=" text-center pb-2 pl-4"
+      style="height:60%; background: linear-gradient(to bottom, rgba(253, 253, 253, 0.52), rgba(255, 255, 255, 0.73)),center 40% no-repeat url('img/pexels-fauxels-3184465.jpg') ;background-size: 100%;">
+      <h1 class="text-uppercase font-weight-bold" style="padding-top: 12%;">Nos Membres</h1>
+    </div>
+  </header>
+  <div class="container-fluid text-center ">
+    <p class="p-5 text-center" style="font-size:2.5rem;">Les professionels du club : "Lorem ipsum dolor sit amet,
+      consectetur adipiscing elit, nisi ut aliquip ex ea commodo consequat.</p>
+    <div class="row d-flex justify-content-around p-3" style="background-color: #44bda6;">
+      <div class="col-md-12">
+        <!-- Buttons trigger collapse -->
+        <a class="text-white" data-mdb-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false"
+          aria-controls="collapseExample">
+          <button class="btn btn-light m-2">Assurances Professionnels et Particuliers</button>
+        </a>
 
-                            <!-- Collapsed content -->
-                      <div class="collapse mt-3 col-md-3" id="collapseExample3">
-                        <div class="card">
-                          <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
-                            <img src="img/LOGO-propulsion_994_.png" class="img-fluid"/>
-                            <a href="#!">
-                              <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
-                            </a>
-                          </div>
-                          <div class="card-body">
-                            <h3 class="card-title">"3 / 3"</h3>
-                            <h5 class="card-title">"Profession"</h5>
-                            <h5 class="card-title">"Nom de l'entreprise"</h5>
-  
-  
-                            <p class="card-text">Contact : mail / numéro / site internet</p>
-                            <a href="#!" class="btn text-white text-uppercase font-weight-bold" style="background-color: #44bda6;">Interview</a>
-                          </div>
-                        </div>
-                        </div>
-                        </div>
-                    </div>
-                    </div>
-  
-                </div>
-                
-    </body>    
-    <!-- JQuery -->
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <!-- Bootstrap tooltips -->
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script>
-    <!-- Bootstrap core JavaScript -->
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js"></script>
-    <!-- MDB core JavaScript -->
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/js/mdb.min.js"></script>
+        <a class="text-white" data-mdb-toggle="collapse" href="#collapseExample2" role="button" aria-expanded="false"
+          aria-controls="collapseExample">
+          <button class="btn btn-light m-2">Automobile neuf et occasion</button>
+        </a>
+
+        <a class="text-white" data-mdb-toggle="collapse" href="#collapseExample3" role="button" aria-expanded="false"
+          aria-controls="collapseExample">
+          <button class="btn btn-light m-2">Immobilier</button>
+        </a>
+        <a class="text-white" data-mdb-toggle="collapse" href="#collapseExample4" role="button" aria-expanded="false"
+          aria-controls="collapseExample">
+          <button class="btn btn-light m-2">Intérim</button>
+        </a>
+        <a class="text-white" data-mdb-toggle="collapse" href="#collapseExample5" role="button" aria-expanded="false"
+          aria-controls="collapseExample">
+          <button class="btn btn-light m-2">Services à la personne</button>
+        </a>
+        <a class="text-white" data-mdb-toggle="collapse" href="#collapseExample6" role="button" aria-expanded="false"
+          aria-controls="collapseExample">
+          <button class="btn btn-light m-2">Travaux Publics</button>
+        </a>
+        <a class="text-white" data-mdb-toggle="collapse" href="#collapseExample7" role="button" aria-expanded="false"
+          aria-controls="collapseExample">
+          <button class="btn btn-light m-2">Web Manager</button>
+        </a>
+        <a class="text-white" data-mdb-toggle="collapse" href="#collapseExample8" role="button" aria-expanded="false"
+          aria-controls="collapseExample">
+          <button class="btn btn-light m-2">Dératisation - Désinsectisation - Désinfection</button>
+        </a>
+      </div>
+    </div>
+    <div class="row d-flex justify-content-center">
+      <!-- Collapsed content -->
+      <div class="collapse mt-3 col-md-3" id="collapseExample">
+        <div class="card" style="width: 300px;">
+          <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+            <img src="img/LOGO-propulsion_994_.png" class="img-fluid" />
+            <a href="#!">
+              <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+            </a>
+          </div>
+          <div class="card-body">
+            <h5 class="card-title">David<br>POVEDANO</h5>
+            <h5 class="card-title">Agent Général d'Assurances</h5>
+            <h5 class="card-title">Abeille Assurances</h5>
 
 
-    <!-- MDB -->
-<script
-type="text/javascript"
-src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.11.0/mdb.min.js"
-></script>
-</html>
+            <p class="card-text">06 63 56 13 76 </p>
+            <a href="https://www.google.com/search?q=Club+d%27Affaires+PRO+Pulsion&rlz=1C1VDKB_frFR976FR976&oq=Club+d%27Affaires+PRO+Pulsion&aqs=chrome..69i57j69i60l3.413j0j4&sourceid=chrome&ie=UTF-8#lpc=lpc&prid=5619743595697671815"
+              class="btn text-white text-uppercase font-weight-bold" style="background-color: #44bda6;">Interview</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Collapsed content -->
+      <div class="collapse mt-3 col-md-3" id="collapseExample2">
+        <div class="card" style="width: 300px;">
+          <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+            <img src="img/LOGO-propulsion_994_.png" class="img-fluid" />
+            <a href="#!">
+              <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+            </a>
+          </div>
+          <div class="card-body">
+            <h5 class="card-title">Bruno<br>NGUYEN</h5>
+            <h5 class="card-title">Directeur de site KIA</h5>
+            <h5 class="card-title">Groupe amplitude Auxerre</h5>
+
+
+            <p class="card-text">06 34 57 15 12 </p>
+            <a href="https://www.google.com/search?q=Club+d%27Affaires+PRO+Pulsion&rlz=1C1VDKB_frFR976FR976&oq=Club+d%27Affaires+PRO+Pulsion&aqs=chrome..69i57j69i60l3.413j0j4&sourceid=chrome&ie=UTF-8#lpc=lpc&prid=7545007993579386926"
+              class="btn text-white text-uppercase font-weight-bold" style="background-color: #44bda6;">Interview</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Collapsed content -->
+      <div class="collapse mt-3 col-md-3" id="collapseExample3">
+        <div class="card" style="width: 300px;">
+          <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+            <img src="img/LOGO-propulsion_994_.png" class="img-fluid" />
+            <a href="#!">
+              <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+            </a>
+          </div>
+          <div class="card-body">
+            <h5 class="card-title">Georges<br>CORNUT</h5>
+            <h5 class="card-title">Mandataire immobilier indépendant</h5>
+            <h5 class="card-title">IAD</h5>
+
+
+            <p class="card-text">07 49 49 55 20 </p>
+            <a href="https://www.google.com/search?q=Club+d%27Affaires+PRO+Pulsion&rlz=1C1VDKB_frFR976FR976&oq=Club+d%27Affaires+PRO+Pulsion&aqs=chrome..69i57j69i60l3.413j0j4&sourceid=chrome&ie=UTF-8#lpc=lpc&prid=-1994545016331272089"
+              class="btn text-white text-uppercase font-weight-bold" style="background-color: #44bda6;">Interview</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="collapse mt-3 col-md-3" id="collapseExample4">
+        <div class="card" style="width: 300px;">
+          <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+            <img src="img/LOGO-propulsion_994_.png" class="img-fluid" />
+            <a href="#!">
+              <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+            </a>
+          </div>
+          <div class="card-body">
+            <h5 class="card-title">Antonio<br>RIBEIRO</h5>
+            <h5 class="card-title">Responsable Agence Emploi</h5>
+            <h5 class="card-title">SAMSIC</h5>
+
+
+            <p class="card-text">06 13 90 80 92 </p>
+            <a href="https://www.google.com/search?q=Club+d%27Affaires+PRO+Pulsion&rlz=1C1VDKB_frFR976FR976&oq=Club+d%27Affaires+PRO+Pulsion&aqs=chrome..69i57j69i60l3.413j0j4&sourceid=chrome&ie=UTF-8#lpc=lpc&prid=-558544046288222159"
+              class="btn text-white text-uppercase font-weight-bold" style="background-color: #44bda6;">Interview</a>
+          </div>
+        </div>
+      </div>
+      <div class="collapse mt-3 col-md-3" id="collapseExample5">
+        <div class="card" style="width: 300px;">
+          <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+            <img src="img/LOGO-propulsion_994_.png" class="img-fluid" />
+            <a href="#!">
+              <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+            </a>
+          </div>
+          <div class="card-body">
+            <h5 class="card-title">Cécile<br>LOISON</h5>
+            <h5 class="card-title">Dirigeante chez <br>CONFIEZ-NOUS</h5>
+            <h5 class="card-title"></h5>
+
+
+            <p class="card-text">06 35 51 20 14</p>
+            <a href="https://www.google.com/search?q=Club+d%27Affaires+PRO+Pulsion&rlz=1C1VDKB_frFR976FR976&oq=Club+d%27Affaires+PRO+Pulsion&aqs=chrome..69i57j69i60l3.413j0j4&sourceid=chrome&ie=UTF-8#lpc=lpc&prid=7220120363399830555"
+              class="btn text-white text-uppercase font-weight-bold" style="background-color: #44bda6;">Interview</a>
+          </div>
+        </div>
+      </div>
+      <div class="collapse mt-3 col-md-3" id="collapseExample6">
+        <div class="card" style="width: 300px;">
+          <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+            <img src="img/LOGO-propulsion_994_.png" class="img-fluid" />
+            <a href="#!">
+              <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+            </a>
+          </div>
+          <div class="card-body">
+            <h5 class="card-title">Philippe<br>DELAVAL</h5>
+            <h5 class="card-title">Mécanique engins TP, terrassement <br>&<br></h5>
+            <h5 class="card-title">Centre de Lavage auxerrois.</h5>
+
+
+            <p class="card-text">06 23 40 40 75 </p>
+            <a href="https://www.google.com/search?q=Club+d%27Affaires+PRO+Pulsion&rlz=1C1VDKB_frFR976FR976&oq=Club+d%27Affaires+PRO+Pulsion&aqs=chrome..69i57j69i60l3.413j0j4&sourceid=chrome&ie=UTF-8#lpc=lpc&prid=-783040811240789380"
+              class="btn text-white text-uppercase font-weight-bold" style="background-color: #44bda6;">Interview</a>
+          </div>
+        </div>
+      </div>
+      <div class="collapse mt-3 col-md-3" id="collapseExample7">
+        <div class="card" style="width: 300px;">
+          <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+            <img src="img/LOGO-propulsion_994_.png" class="img-fluid" />
+            <a href="#!">
+              <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+            </a>
+          </div>
+          <div class="card-body">
+            <h5 class="card-title">Hugo<br>Robine</h5>
+            <h5 class="card-title">Développer Web</h5>
+            <h5 class="card-title">et Web Mobile</h5>
+
+
+            <p class="card-text">06 76 00 40 46 </p>
+            <a href="https://www.google.com/search?q=Club+d%27Affaires+PRO+Pulsion&rlz=1C1VDKB_frFR976FR976&oq=Club+d%27Affaires+PRO+Pulsion&aqs=chrome..69i57j69i60l3.413j0j4&sourceid=chrome&ie=UTF-8#lpc=lpc&prid=-2071520696203711539"
+              class="btn text-white text-uppercase font-weight-bold" style="background-color: #44bda6;">Interview</a>
+          </div>
+        </div>
+      </div>
+      <div class="collapse mt-3 col-md-3" id="collapseExample8">
+        <div class="card" style="width: 300px;">
+          <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+            <img src="img/LOGO-propulsion_994_.png" class="img-fluid" />
+            <a href="#!">
+              <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+            </a>
+          </div>
+          <div class="card-body">
+            <h5 class="card-title">Dominique<br>HUET</h5>
+            <h5 class="card-title">Responsable de service</h5>
+            <h5 class="card-title">ANTI NUISIBLES SERVICES</h5>
+
+
+            <p class="card-text">07 71 12 09 29</p>
+            <a href="https://www.google.com/search?q=Club+d%27Affaires+PRO+Pulsion&rlz=1C1VDKB_frFR976FR976&oq=Club+d%27Affaires+PRO+Pulsion&aqs=chrome..69i57j69i60l3.413j0j4&sourceid=chrome&ie=UTF-8#lpc=lpc&prid=3321664529042233867"
+              class="btn text-white text-uppercase font-weight-bold" style="background-color: #44bda6;">Interview</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+<!-- Footer -->
+<footer class="text-center text-lg-start bg-light text-muted">
+  <!-- Section: Social media -->
+  <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+    <!-- Left -->
+    <div class="me-5 d-none d-lg-block">
+      <span>Rejoignez nous sur nos réseaux sociaux :</span>
+    </div>
+    <!-- Left -->
+
+    <!-- Right -->
+    <div>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-facebook-f"></i>
+      </a>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-twitter"></i>
+      </a>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-google"></i>
+      </a>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-instagram"></i>
+      </a>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-linkedin"></i>
+      </a>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-github"></i>
+      </a>
+    </div>
+    <!-- Right -->
+  </section>
+  <!-- Section: Social media -->
+
+  <!-- Section: Links  -->
+  <section>
+    <div class="container text-center text-md-start mt-3">
+      <!-- Grid row -->
+      <div class="row d-flex justify-content-center">
+        <h6 class="text-uppercase text-center fw-bold mb-4">
+          Contact :
+        </h6>
+        <div class="col-md-4 d-flex justify-content-center">
+          <p><i class="fas fa-home me-3"></i> 12 Route de Paris - 89380 Appoigny</p>
+        </div>
+        <div class="col-md-4 d-flex justify-content-center">
+          <p>
+            <i class="fas fa-envelope me-3"></i>
+            capropulsion@gmail.com
+          </p>
+        </div>
+        <div class="col-md-4 d-flex justify-content-center">
+          <p><i class="fas fa-phone me-3"></i> + 01 234 567 88</p>
+        </div>
+        <!-- Grid column -->
+
+
+
+
+
+      </div>
+      <!-- Grid column -->
+    </div>
+  </section>
+  <!-- Section: Links  -->
+
+  <!-- Copyright -->
+  <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+    <p>© 2022 Pro Pulsion</p>
+    <a class="text-dark" href="#">Mentions Légales</a><span> - </span>
+    <a class="text-dark" href="#">Politique de confidentialité</a>
+  </div>
+  <!-- Copyright -->
+</footer>
+<!-- MDB -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/4.2.0/mdb.min.js"></script>
+
 </html>
